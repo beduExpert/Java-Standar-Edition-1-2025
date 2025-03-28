@@ -1,0 +1,16 @@
+# Archivos compilados de Java
+*.class
+
+# Configuración de IntelliJ IDEA
+.idea/
+*.iml
+
+# Archivos generados por Java
+hs_err_pid*
+
+# Archivos de logs
+*.log
+
+# Archivos del sistema (Windows y macOS)
+.DS_Store
+Thumbs.db
