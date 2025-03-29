@@ -56,7 +56,7 @@ En versiones modernas de Java, se han introducido nuevas formas de definir clase
 🔹 **`sealed classes`** → Para restringir qué clases pueden heredar de una clase padre.  
 
 📜 **[Ejemplo 04: Uso de record y sealed classes](Ejemplo-04/Readme.md)**  
-🔥 **[Reto 02: Nombre pendiente](Reto-04/Readme.md)**  
+🔥 **[Reto 02: Registro básico de entradas](Reto-04/Readme.md)**  
 
 ---
 

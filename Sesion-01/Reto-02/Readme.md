@@ -1,4 +1,4 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / ⚡`Reto 01: Registro básico de entradas`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / ⚡`Reto 02: Registro básico de entradas`
 
 ## 🎯 Objetivo
 
@@ -51,4 +51,4 @@ Este reto está diseñado para reforzar los conceptos básicos de la Programaci�
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md)➡️  
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../../Sesion-02/Readme.md)➡️  
