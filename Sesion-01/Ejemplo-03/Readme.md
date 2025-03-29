@@ -76,4 +76,4 @@ Los **modificadores de acceso** determinan la visibilidad de atributos y método
 
 ---
 
-⬅️ [**Anterior**](../Reto-02/Readme.md) | [**Siguiente**](../Ejemplo-04/Readme.md)➡️
+⬅️ [**Anterior**](../Reto-01/Readme.md) | [**Siguiente**](../Ejemplo-04/Readme.md)➡️

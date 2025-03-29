@@ -99,4 +99,4 @@ El modificador `final` en una clase indica que **no puede ser heredada**. En el 
 
 ---
 
-⬅️ [**Anterior**](../Reto-03/Readme.md) | [**Siguiente**](../Reto-02/Readme.md)➡️
+⬅️ [**Anterior**](../Ejemplo-03/Readme.md) | [**Siguiente**](../Reto-02/Readme.md)➡️

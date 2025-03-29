@@ -48,4 +48,4 @@ Este reto está diseñado para reforzar los fundamentos de Java y la Programaci�
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md)➡️
+⬅️ [**Anterior**](../Ejemplo-02/Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md)➡️

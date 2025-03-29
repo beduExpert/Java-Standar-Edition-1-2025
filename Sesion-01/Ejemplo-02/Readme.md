@@ -71,4 +71,4 @@ public class Principal {
 
 ---
 
-⬅️ [**Anterior**](../Reto-01/Readme.md) | [**Siguiente**](../Reto-01/Readme.md)➡️
+⬅️ [**Anterior**](../Ejemplo-01/Readme.md) | [**Siguiente**](../Reto-01/Readme.md)➡️

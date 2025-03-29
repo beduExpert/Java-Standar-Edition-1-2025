@@ -51,4 +51,4 @@ Este reto está diseñado para reforzar los conceptos básicos de la Programaci�
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../../Sesion-02/Readme.md)➡️  
+⬅️ [**Anterior**](../Ejemplo-04/Readme.md) | [**Siguiente**](../../Sesion-02/Readme.md)➡️  
