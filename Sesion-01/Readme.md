@@ -21,7 +21,6 @@ Java es un lenguaje de programación **orientado a objetos** ampliamente utiliza
 🔹 **Compilación y ejecución de código en Java (Línea de comandos)**  
 
 📜 **[Ejemplo 01: Mi primer programa en Java](Ejemplo-01/Readme.md)**  
-🔥 **[Reto 01: Mensaje de bienvenida personalizado](Reto-01/Readme.md)**  
 
 ---
 
@@ -34,7 +33,7 @@ La POO es un paradigma de programación basado en la creación y manipulación d
 🔹 **Abstracción**: Ocultamiento de detalles de implementación, enfocándose solo en lo esencial.  
 
 📜 **[Ejemplo 02: Creando nuestra primera clase en java](Ejemplo-02/Readme.md)**  
-🔥 **[Reto 02: Registro de pacientes](Reto-02/Readme.md)**  
+🔥 **[Reto 01: Registro de pacientes](Reto-01/Readme.md)**  
 
 ---
 
@@ -47,7 +46,6 @@ Las **clases** son plantillas para la creación de **objetos**, que representan 
 🔹 **Modificadores de acceso (`public`, `private`, `protected`)**  
 
 📜 **[Ejemplo 03: Definiendo una clase y creando objetos](Ejemplo-03/Readme.md)**  
-🔥 **[Reto 03: Modelo de una agenda de contactos](Reto-03/Readme.md)**  
 
 ---
 
@@ -58,7 +56,7 @@ En versiones modernas de Java, se han introducido nuevas formas de definir clase
 🔹 **`sealed classes`** → Para restringir qué clases pueden heredar de una clase padre.  
 
 📜 **[Ejemplo 04: Uso de record y sealed classes](Ejemplo-04/Readme.md)**  
-🔥 **[Reto 04: Definición de roles en una empresa](Reto-04/Readme.md)**  
+🔥 **[Reto 02: Nombre pendiente](Reto-04/Readme.md)**  
 
 ---
 

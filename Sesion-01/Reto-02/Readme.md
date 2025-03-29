@@ -1,48 +1,54 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / ⚡`Reto 02: Registro de pacientes`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / ⚡`Reto 01: Registro básico de entradas`
 
 ## 🎯 Objetivo
 
-⚒️ Desarrollar un programa en **Java** que represente a un paciente mediante una clase con atributos y métodos. Este reto te ayudará a practicar el diseño de clases con orientación a objetos en un contexto real, usando atributos y métodos básicos.
+⚒️ Desarrollar un programa en **Java** que permita registrar la información básica de entradas para eventos, aplicando los fundamentos de **clases**, **objetos**, **atributos**, **métodos** y el uso de **constructores**.
 
 ---
 
 ## 📝 Instrucciones
 
-👥 Puedes resolver este reto de forma individual o en equipo.
+👥 Puedes resolver este reto de manera individual o en equipos.
 
-1. 🩺 Crea una **clase** llamada `Paciente` con los siguientes **atributos**:
-   - `nombre` (tipo `String`)
-   - `edad` (tipo `int`)
-   - `numeroExpediente` (tipo `String`)
+1. 🎫 Crea una **clase** llamada `Entrada`.
 
-2. 📋 Agrega un **método** llamado `mostrarInformacion()` que imprima los datos del paciente en el siguiente formato:
+2. 🧱 Declara los siguientes atributos:
+   - Nombre del evento (`String`)
+   - Precio de la entrada (`double`)
+
+3. 🛠️ Crea un **constructor** que reciba ambos valores al momento de crear el objeto.
+
+4. 📢 Agrega un **método público** llamado `mostrarInformacion()` que imprima el siguiente formato:
    ```plaintext
-   Paciente: Mario Gonzalez  
-   Edad: 25  
-   Expediente: EXP202516
+   Evento: Obra de Teatro | Precio: $450.0
    ```
 
-3. 🧪 Agrega el método `main` en la misma clase `Paciente` y dentro de él:
-   - Crea un objeto de tipo `Paciente`.
-   - Asigna los valores directamente a los atributos.
-   - Llama al método `mostrarInformacion()`.
+5. 🧪 Crea una clase llamada `Principal` y dentro del método `main()`:
+   - Crea al menos **dos objetos** de tipo `Entrada`
+   - Llama al método `mostrarInformacion()` para mostrar los datos en consola
 
 ---
 
-📘 Si necesitas repasar cómo declarar clases, atributos y métodos en Java, puedes revisar el siguiente recurso:  
-🔗 [Clases y objetos en Java – W3Schools](https://www.w3schools.com/java/java_classes.asp)
+## ✅ Desafío adicional
+
+🎁 Como reto extra, convierte la clase `Entrada` en un `record` para ver una forma más compacta de declarar estructuras de datos en Java moderno, genera un nuevo archivo `Entrada_Record` y crea un registro extra.
 
 ---
 
-🧠 **Nota importante:**
-
-En este reto usamos una sola clase con el método `main()` incluido para mantenerlo simple y enfocado en los conceptos básicos de POO.  
-✅ A partir de las siguientes sesiones, aprenderás a organizar tu código con **archivos separados por clase**, como se hace en proyectos reales.
-
----
-
-🏆 ¡Muy bien! Nos vemos en el siguiente reto.
+📘 Recursos útiles:  
+🔗 [Clases en Java – W3Schools](https://www.w3schools.com/java/java_classes.asp)  
+🔗 [Constructores en Java – W3Schools](https://www.w3schools.com/java/java_constructors.asp)  
+🔗 [Records en Java – Oracle Docs](https://docs.oracle.com/en/java/javase/17/language/records.html)
 
 ---
 
-⬅️ [**Anterior**](../Ejemplo-02/Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md)➡️
+🧠 **Nota:**  
+Este reto está diseñado para reforzar los conceptos básicos de la Programación Orientada a Objetos (POO) en Java. Utiliza al menos **dos archivos diferentes**: uno para la clase `Entrada` y otro para ejecutar el programa desde `Principal`.
+
+---
+
+🏆 Nos vemos en el siguiente reto, ¡mucho éxito!
+
+---
+
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md)➡️  

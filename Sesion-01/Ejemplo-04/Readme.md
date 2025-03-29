@@ -37,6 +37,8 @@ public class Principal {
 Producto[nombre=Monitor, precio=3299.99]
 ```
 
+📝 Esta salida representa el contenido del objeto `producto` impreso automáticamente por el método `toString()` generado por el record.
+
 ---
 
 ## 📌 ¿Qué es una `sealed class`?
@@ -56,9 +58,20 @@ final class Camion extends Vehiculo { }
 ```
 
 📌 En este ejemplo:
-- Solo `Auto` y `Camion` pueden extender `Vehiculo`.
+- Solo `Auto` y `Camion` pueden extender de `Vehiculo`.
 - Cualquier otro intento de herencia será un error de compilación.
 
+### ❌ Ejemplo de error al extender `Vehiculo` sin permiso:
+
+```java
+// Esta clase NO está en la lista de 'permits', por lo tanto, genera un error.
+class Moto extends Vehiculo { }
+```
+
+🛑 **Error de compilación esperado:**
+```
+class Moto is not allowed to extend sealed class Vehiculo
+```
 ---
 
 ## 📌 ¿Qué significa `final`?
@@ -86,4 +99,4 @@ El modificador `final` en una clase indica que **no puede ser heredada**. En el 
 
 ---
 
-⬅️ [**Anterior**](../Reto-03/Readme.md) | [**Siguiente**](../Reto-04/Readme.md)➡️
+⬅️ [**Anterior**](../Reto-03/Readme.md) | [**Siguiente**](../Reto-02/Readme.md)➡️

@@ -27,7 +27,6 @@ public class Producto {
         System.out.println("Producto: " + nombre + " - Precio: $" + precio);
     }
 }
-
 ```
 
 ```java
@@ -66,6 +65,9 @@ Los **modificadores de acceso** determinan la visibilidad de atributos y método
 - Si no defines un constructor, Java genera uno vacío automáticamente.
 - Puedes definir múltiples constructores en una misma clase (esto se llama **sobrecarga**).
 - Los constructores permiten escribir clases más limpias y fáciles de usar.
+- Puedes dar formato a números en una cadena usando `String.format()`.  
+  Por ejemplo, para mostrar precios con coma y dos decimales:  
+  `System.out.println("Precio: $" + String.format("%,.2f", precio)); output: Precio: $12,499.99`
 
 ---
 
@@ -74,4 +76,4 @@ Los **modificadores de acceso** determinan la visibilidad de atributos y método
 
 ---
 
-⬅️ [**Anterior**](../Reto-02/Readme.md) | [**Siguiente**](../Reto-03/Readme.md)➡️
+⬅️ [**Anterior**](../Reto-02/Readme.md) | [**Siguiente**](../Ejemplo-04/Readme.md)➡️

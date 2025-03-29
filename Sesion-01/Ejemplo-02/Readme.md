@@ -16,6 +16,8 @@ La **Programación Orientada a Objetos (POO)** es un estilo de programación que
 
 Una **clase** es una plantilla que describe las características (**atributos**) y comportamientos (**métodos**) que puede tener un objeto.
 
+**1. Crea un archivo tipo `java class` y establece el nombre del archivo como `Estudiante`, una recomendación es organizar tus códigos dentro de paquetes o `package`.**
+
 ```java
 public class Estudiante {
     // Caracteristicas del estudiante
@@ -34,7 +36,9 @@ public class Estudiante {
 
 ## 🧱 ¿Qué es un objeto?
 
-Un **objeto** es una instancia de una clase, es decir, un ejemplar concreto con valores específicos.
+Un **objeto** es una instancia de una clase, es decir, un ejemplar concreto con valores específicos. 
+
+**2. Crea un archivo tipo `java class` y establece el nombre del archivo como `Principal`, este programa se encargara de ejecutar el código desarrollado dentro del método `main`.**
 
 ```java
 public class Principal {
@@ -67,4 +71,4 @@ public class Principal {
 
 ---
 
-⬅️ [**Anterior**](../Reto-01/Readme.md) | [**Siguiente**](../Reto-02/Readme.md)➡️
+⬅️ [**Anterior**](../Reto-01/Readme.md) | [**Siguiente**](../Reto-01/Readme.md)➡️

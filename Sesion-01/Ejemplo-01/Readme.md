@@ -83,4 +83,4 @@ Si usas **IntelliJ IDEA**, sigue estos pasos:
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Reto-01/Readme.md)➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-02/Readme.md)➡️
