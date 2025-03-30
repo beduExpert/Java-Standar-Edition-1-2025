@@ -207,7 +207,7 @@ Visualízalo así:
 <table style="border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S04_Fig1.jpg" alt="celular" width="60">
+      <img src="../Imagenes/S04_Fig01.png" alt="celular" width="60">
     </td>
     <td style="border: 1px solid white; padding: 10px;">
       Imagina que compras un celular. Puedes elegir solo el modelo básico, o agregar accesorios como audífonos y una funda.  
@@ -228,7 +228,7 @@ Ejemplo
       Piensa en una cuenta bancaria. Si un usuario no especifica su saldo inicial, podríamos asignarle automáticamente un saldo de **$0.00** para que no quede sin valor.
     </td>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S04_Fig2.jpg" alt="cuenta bancaria" width="60">
+      <img src="../Imagenes/S04_Fig02.png" alt="cuenta bancaria" width="60">
     </td>
   </tr>
 </table>
@@ -269,7 +269,7 @@ Ejemplo
 <table style="border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S04_Fig3.jpg" alt="celular" width="60">
+      <img src="../Imagenes/S04_Fig03.png" alt="celular" width="60">
     </td>
     <td style="border: 1px solid white; padding: 10px;">
       Imagina que tienes dos tarjetas de identificación con el mismo nombre y número de empleado. Aunque son dos objetos físicos diferentes, representan la misma persona. 
