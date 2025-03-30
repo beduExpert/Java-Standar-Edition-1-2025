@@ -23,20 +23,20 @@ Así que... ¡manos al código! ⚡ Prepárate para escribir tus primeras estruc
 
 #### 🎯 Objetivo  
 
-- Comprender y aplicar los distintos tipos de datos en Java, incluyendo la inferencia de tipos con var.
+- Comprender y aplicar los distintos tipos de datos en Java, incluyendo la inferencia de tipos con `var`.
 - Utilizar correctamente operadores y expresiones para realizar cálculos y manipulaciones de datos en Java.
-- Implementar estructuras de control como condicionales (if, switch) para tomar decisiones en el flujo del programa.
-- Manejar bucles de control (for, while, do-while, for-each) para la ejecución repetitiva y eficiente del código.
+- Implementar estructuras de control como condicionales (`if`, `switch`) para tomar decisiones en el flujo del programa.
+- Manejar bucles de control (`for`, `while`, `do-while`, `for-each`) para la ejecución repetitiva y eficiente del código.
 
 ---
 
 #### 📋 Instrucciones  
 
-Este Prework está diseñado para conocer el contenido que se practicará durante la sesión en vivo. **Por favor no lo omitas.**
+Este *Prework* está diseñado para conocer el contenido que se practicará durante la sesión en vivo. **Por favor no lo omitas.**
 
 Toma notas de lo que consideres relevante y guarda tus preguntas o dudas para resolverlas en la sesión.
 
-Antes de comenzar, es fundamental asegurarte de que tu entorno de trabajo esté listo. Verifica que tienes instalado IntelliJ IDEA Community Edition y el JDK (Java Development Kit).
+Antes de comenzar, es fundamental asegurarte de que tu entorno de trabajo esté listo. Verifica que tienes instalado **IntelliJ IDEA Community Edition** y el **JDK (Java Development Kit)**.
 
 Si encuentras algún problema o tienes dudas sobre la instalación, no dudes en contactar a tu experto/a para recibir asistencia y resolver cualquier inconveniente. ¡Estamos aquí para ayudarte! 🚀
 
@@ -138,7 +138,7 @@ Se utilizan para realizar cálculos matemáticos con valores numéricos.
 | `/`          | División               | `a / b`     | `3 (en enteros)`  |
 | `%`          | Módulo (residuo)       | `a % b`     | `1`               |
 
-**🔑 Dato clave**: En la división de enteros, Java *trunca* el resultado, es decir, descarta los decimales.
+**🔑 Dato clave**: En la división de enteros, Java **trunca** el resultado, es decir, descarta los decimales.
 
 **🔍 Operadores relacionales**  
 Estos operadores permiten comparar valores y devuelven un resultado *booleano* (`true` o `false`).
@@ -160,10 +160,10 @@ Los operadores lógicos se usan para combinar condiciones booleanas.
 | **Operador** | **Descripción**     | **Ejemplo** | **Resultado** |
 |--------------|---------------------|-------------|----------------|
 | `&&`         | AND (y)             | `x && y`    | `false`        |
-| `||`         | OR (o)              |             | `true`         |
+|  `\|\|`      | OR (o)              | `x \|\| y`  | `true`         |
 | `!`          | NOT (negación)      | `!x`        | `false`        |
 | `&`          | AND bit a bit       | `x & y`     | `false`        |
-|              | OR bit a bit        |             | `false`        |
+|  \|          | OR bit a bit        | `x \| y`    | `false`        |
 
 **🔑 Dato clave**: `&&` y `||` usan *evaluación cortocircuito*, lo que significa que, si el primer valor ya determina el resultado, el segundo no se evalúa.
 
@@ -207,7 +207,7 @@ Cuando una expresión tiene varios operadores, Java sigue reglas de precedencia 
 | 5             | `<`, `<=`, `>`, `>=` (relacionales)             | De izquierda a derecha          |
 | 6             | `==`, `!=` (igualdad y desigualdad)             | De izquierda a derecha          |
 | 7             | `&&` (AND lógico)                               | De izquierda a derecha          |
-| 8             | __ (OR lógico)                                | De izquierda a derecha          |
+| 8             | `\|\|` (OR lógico)                                | De izquierda a derecha          |
 | 9 (Menor)     | `=`, `+=`, `-=`, `*=`, `/=`, `%=` (asignación)  | De derecha a izquierda          |
 
 **💫 Reglas clave**:  
