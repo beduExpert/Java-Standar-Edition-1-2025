@@ -349,27 +349,27 @@ Beneficios de `Optional`
 #### 🧠 Actividad de reforzamiento  
 Responde las siguientes preguntas y reflexiona sobre cada tema.   
 
-*Pregunta 1: ¿Cuál de las siguientes opciones describe mejor la relación entre una clase y un objeto en Java?*  
+***Pregunta 1: ¿Cuál de las siguientes opciones describe mejor la relación entre una clase y un objeto en Java?***  
 A) Una clase es una instancia de un objeto.  
 B) Un objeto es una instancia de una clase.  
 C) Un objeto y una clase son lo mismo.  
 
-*Pregunta 2: ¿Cuál es la función principal de los modificadores de acceso (`private`, `protected`, `public`) en Java?*  
+***Pregunta 2: ¿Cuál es la función principal de los modificadores de acceso (`private`, `protected`, `public`) en Java?***  
 A) Controlar el acceso a los atributos y métodos dentro de una clase.  
 B) Mejorar el rendimiento del código.  
 C) Convertir variables en constantes.  
 
-*Pregunta 3: ¿Cuál es el beneficio de usar `Optiona`l en Java?*  
+***Pregunta 3: ¿Cuál es el beneficio de usar `Optiona`l en Java?***  
 A) Evita la necesidad de usar clases en Java.  
 B) Permite manejar valores nulos de manera segura y evitar `NullPointerException`.  
 C) Hace que el código sea más lento y difícil de leer.  
 
-*Pregunta 4: ¿Cuál de las siguientes afirmaciones sobre métodos en Java es correcta?*  
+***Pregunta 4: ¿Cuál de las siguientes afirmaciones sobre métodos en Java es correcta?***  
 A) Un método `void` devuelve siempre un valor numérico.  
 B) Un método puede devolver un valor o no, dependiendo de su tipo de retorno.  
 C) Los métodos en Java solo pueden tener un parámetro de entrada.  
 
-*Pregunta 5: ¿Cómo se accede a un atributo `private` en una clase desde otra clase en Java?*  
+***Pregunta 5: ¿Cómo se accede a un atributo `private` en una clase desde otra clase en Java?***  
 A) Directamente usando `nombreDelObjeto.atributo`.  
 B) No se puede acceder a un atributo `private` desde otra clase.  
 C) A través de métodos `getter` y `setter`.  
