@@ -111,7 +111,7 @@ Java es un lenguaje de programación de alto nivel, orientado a objetos, multipl
   <img src="../Imagenes/S01_Fig01.jpg" alt="Características principales de Java" width="50%">
 </div>
 
-**✍️ Conceptos clave antes de programar en Java**
+**✍️ Conceptos clave antes de programar en Java**  
 Antes de escribir código en Java, es importante comprender algunos conceptos fundamentales del lenguaje.
 
 **📌 Sintaxis básica de Java**  
@@ -330,28 +330,28 @@ Las `sealed classes` son una nueva forma de controlar la herencia en Java, permi
 #### 🧠 Actividad de reforzamiento
 Responde las siguientes preguntas y reflexiona sobre cada tema. Puedes escribir tus respuestas en un documento o compartirlas en el grupo de estudio.
 
-**1. Reflexión sobre Java**
-- ¿Qué significa que Java sea un lenguaje multiplataforma?
-- ¿Por qué Java es considerado un lenguaje orientado a objetos?
-- Menciona tres características clave de Java y explica su importancia.
+**1. Reflexión sobre Java**  
+- ¿Qué significa que Java sea un lenguaje multiplataforma?  
+- ¿Por qué Java es considerado un lenguaje orientado a objetos?  
+- Menciona tres características clave de Java y explica su importancia.  
 
-**2. Identificación de Clases y Objetos**
-Piensa en objetos del mundo real y responde:
+**2. Identificación de Clases y Objetos**  
+Piensa en objetos del mundo real y responde:  
 
-- Identifica tres objetos de la vida cotidiana que puedan representarse en Java como una clase.
-- Para cada objeto, describe tres atributos (características) y dos métodos (acciones que puede realizar).
+- Identifica tres objetos de la vida cotidiana que puedan representarse en Java como una clase.  
+- Para cada objeto, describe tres atributos (características) y dos métodos (acciones que puede realizar).  
 
-**3. Exploración de Pilares de POO**
-Relaciona los cuatro pilares de la Programación Orientada a Objetos con ejemplos reales:
+**3. Exploración de Pilares de POO**  
+Relaciona los cuatro pilares de la Programación Orientada a Objetos con ejemplos reales:  
 
-- **Encapsulamiento**: ¿Cómo aplicarías este concepto en un programa que maneja información personal?
-- **Herencia:** Menciona un ejemplo en la vida real donde un objeto hereda características de otro.
-- **Polimorfismo:** Explica cómo un mismo método puede comportarse de manera diferente en distintos contextos.
-- **Abstracción:** ¿Cómo ayuda la abstracción a simplificar la programación en proyectos grandes?
+- **Encapsulamiento**: ¿Cómo aplicarías este concepto en un programa que maneja información personal?  
+- **Herencia:** Menciona un ejemplo en la vida real donde un objeto hereda características de otro.  
+- **Polimorfismo:** Explica cómo un mismo método puede comportarse de manera diferente en distintos contextos.  
+- **Abstracción:** ¿Cómo ayuda la abstracción a simplificar la programación en proyectos grandes?  
 
-**4. Reflexión sobre record y sealed classes**
-- ¿Cuáles son las ventajas de utilizar record en lugar de una clase tradicional en Java?
-- ¿Cómo sealed classes mejora la seguridad y el control en la herencia de clases?
+**4. Reflexión sobre record y sealed classes**  
+- ¿Cuáles son las ventajas de utilizar record en lugar de una clase tradicional en Java?  
+- ¿Cómo sealed classes mejora la seguridad y el control en la herencia de clases?  
 
 ---
 
