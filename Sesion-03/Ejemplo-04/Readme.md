@@ -35,7 +35,7 @@ public class Contacto {
 ```
 ---
 
-## 🛠️ 2. Uso de isPresent() y ifPresent()
+## 🛠️ 2. Uso de `isPresent()` y `ifPresent()`
 
 Detectamos si hay valor, y ejecutamos algo solo si existe.
 
@@ -93,9 +93,9 @@ String telSeguro = c1.getTelefono().orElseThrow(() -> new RuntimeException("⚠�
 
 ## 💡 ¿Sabías que...?
 
-🧠 `Optional` se introdujo en Java 8 para ayudarte a escribir código más seguro y legible.
-🚫 Ya no necesitas llenar tu código de `if (obj != null)`, ahora puedes usar flujos claros y expresivos.
-📚 Muchas APIs modernas de Java y frameworks como Spring usan `Optional` para devolver resultados de forma segura.
+🧠 `Optional` se introdujo en Java 8 para ayudarte a escribir código más seguro y legible.  
+🚫 Ya no necesitas llenar tu código de `if (obj != null)`, ahora puedes usar flujos claros y expresivos.  
+📚 Muchas APIs modernas de Java y frameworks como Spring usan `Optional` para devolver resultados de forma segura.  
 
 ---
 
