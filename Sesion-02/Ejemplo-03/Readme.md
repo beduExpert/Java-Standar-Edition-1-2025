@@ -118,4 +118,4 @@ Es similar a `return`, pero se usa dentro de expresiones `switch`.
 
 ---
 
-⬅️ [**Anterior**](../Reto-02/Readme.md) | [**Siguiente**](../Reto-03/Readme.md)➡️
+⬅️ [**Anterior**](../Reto-01/Readme.md) | [**Siguiente**](../Ejemplo-04/Readme.md)➡️

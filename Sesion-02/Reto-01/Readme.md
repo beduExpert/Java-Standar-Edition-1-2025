@@ -1,8 +1,8 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 02**](../Readme.md) ➡️ / ⚡`Reto 01: Registro simple de producto`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 02**](../Readme.md) ➡️ / ⚡`Reto 01: Simulador de farmacia con descuento`
 
 ## 🎯 Objetivo
 
-⚒️ Desarrollar un programa que registre los datos de un producto y los muestre en consola. Este reto refuerza el uso de **tipos de datos**, **entrada por consola**, **uso de `var`** y **casting**.
+⚒️ Desarrollar un programa que calcule el total de una compra en farmacia y aplique un descuento si supera cierta cantidad. Este reto refuerza el uso de **operadores aritméticos**, **asignación**, **entrada por consola**, e **inferencia de tipo con `var`**.
 
 ---
 
@@ -10,47 +10,41 @@
 
 👥 Puedes resolver este reto de forma individual o en equipo.
 
-1. 🧾 Crea una clase llamada `ProductoRegistro`.
+1. 💊 Crea una clase llamada `SimuladorFarmacia`.
 
-2. 🛒 Solicita al usuario que introduzca los siguientes datos por consola:
-   - Nombre del producto (tipo `String`)
-   - Precio del producto (tipo `double`)
-   - ¿Está en promoción? (tipo `boolean`)
+2. Solicita al usuario que introduzca los siguientes datos:
+   - Nombre del medicamento (tipo `String`)
+   - Precio unitario (tipo `double`)
+   - Cantidad de piezas (tipo `int`)
 
-3. 🖨️ Muestra en consola un resumen con el siguiente formato:
-   ```plaintext
-   Producto: Camiseta
-   Precio original: $249.99
-   ¿En promoción?: true
-   ```
+3. Calcula el **total sin descuento** multiplicando el precio por la cantidad.
 
-4. 🧮 Supón que el producto está en promoción (`true`) y, en ese caso, muestra también el precio como número entero   
-📌 *Nota: Aún no se utiliza una estructura `if` para esta condición. Más adelante aprenderás cómo aplicarla.*
+4. Supón que si el total supera los **$500.00**, la farmacia ofrece un **15% de descuento**. Aplica el descuento usando el operador ternario (`? :`) sin estructuras `if`.
 
----
-
-### 📌 Ejemplo de ejecución
+5. Muestra en consola el resumen con el siguiente formato:
 
 ```plaintext
-Introduce el nombre del producto: Lego Titanic
-Introduce el precio: 18000000.456789
-¿Está en promoción? (true/false): true
-
-Producto: Lego Titanic
-Precio original: $18,000,000.45679
-¿En promoción?: true
-Precio como entero: $18,000,000
+Medicamento: Amoxicilina
+Cantidad: 5
+Precio unitario: $120.0
+Total sin descuento: $600.0
+¿Aplica descuento?: true
+Descuento: $90.0
+Total a pagar: $510.0
 ```
 
 ---
 
-## 💡 ¿Sabías que...?
-- Con `String.format()` en Java puedes dar formato a números, agregar comas, decimales y alinear texto fácilmente, ¡todo en una sola línea!
+### 📌 Consideraciones
 
---- 
+- Utiliza `var` en al menos una línea de tu código.
+- No uses `if`, `else` ni `switch`. Solo operadores básicos y ternarios.
+- El valor del descuento solo debe calcularse si **el total supera los $500.00**.
+
+---
 
 🏆 Nos vemos en el siguiente reto, ¡mucho éxito!  
 
 ---
 
-⬅️ [**Anterior**](../Ejemplo-01/Readme.md) | [**Siguiente**](../Ejemplo-02/Readme.md)➡️
+⬅️ [**Anterior**](../Ejemplo-02/Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md)➡️

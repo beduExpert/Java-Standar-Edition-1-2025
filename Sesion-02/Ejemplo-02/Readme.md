@@ -109,4 +109,4 @@ Java sigue esta jerarquía al evaluar expresiones:
 
 ---
 
-⬅️ [**Anterior**](../Reto-01/Readme.md) | [**Siguiente**](../Reto-02/Readme.md)➡️
+⬅️ [**Anterior**](../Ejemplo-01/Readme.md) | [**Siguiente**](../Reto-01/Readme.md)➡️

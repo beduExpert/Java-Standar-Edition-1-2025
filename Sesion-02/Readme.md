@@ -20,7 +20,6 @@ En Java, cada variable debe tener un tipo definido. En versiones modernas, tambi
 🔹 **Conversión de tipos de datos y casting**
 
 📜 **[Ejemplo 01: Declaración de variables y uso de `var`](Ejemplo-01/Readme.md)**  
-🔥 **[Reto 01: Registro simple de producto](Reto-01/Readme.md)**  
 
 ---
 
@@ -36,7 +35,7 @@ Los operadores permiten realizar cálculos y tomar decisiones dentro de nuestros
 
 
 📜 **[Ejemplo 02: Operaciones y comparaciones](Ejemplo-02/Readme.md)**  
-🔥 **[Reto 02: Simulador de farmacia con descuento](Reto-02/Readme.md)**  
+🔥 **[Reto 01: Simulador de farmacia con descuento](Reto-01/Readme.md)**  
 
 ---
 
@@ -48,7 +47,6 @@ Las estructuras condicionales permiten ejecutar distintas acciones dependiendo d
 🔹 **Buenas prácticas en condiciones anidadas**
 
 📜 **[Ejemplo 03: Sentencias condicionales](Ejemplo-03/Readme.md)**  
-🔥 **[Reto 03: Evaluador de calificaciones](Reto-03/Readme.md)**  
 
 ---
 
@@ -60,7 +58,7 @@ Los ciclos permiten ejecutar bloques de código repetidamente, de manera control
 🔹 **Buenas practicas**
 
 📜 **[Ejemplo 04: Repetición con ciclos](Ejemplo-04/Readme.md)**  
-🔥 **[Reto 04: Cajero automático simple](Reto-04/Readme.md)**  
+🔥 **[Reto 02: Cajero automático simple](Reto-02/Readme.md)**  
 
 ---
 
