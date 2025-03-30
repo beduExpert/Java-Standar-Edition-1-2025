@@ -359,7 +359,7 @@ A) Controlar el acceso a los atributos y métodos dentro de una clase.
 B) Mejorar el rendimiento del código.  
 C) Convertir variables en constantes.  
 
-***Pregunta 3: ¿Cuál es el beneficio de usar `Optiona`l en Java?***  
+***Pregunta 3: ¿Cuál es el beneficio de usar `Optional` en Java?***  
 A) Evita la necesidad de usar clases en Java.  
 B) Permite manejar valores nulos de manera segura y evitar `NullPointerException`.  
 C) Hace que el código sea más lento y difícil de leer.  
