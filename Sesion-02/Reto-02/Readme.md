@@ -8,11 +8,11 @@
 
 ## 📝 Instrucciones
 
-👥 Puedes resolver este reto de forma individual o en parejas.
+👥 Puedes resolver este reto de forma individual o en equipos.
 
 1. 🏗️ Crea una **clase** llamada `CajeroAutomatico`.
 
-2. 💸 En el método `main`, define un **saldo inicial** (por ejemplo: `saldo = 1000.0`).
+2. 💸 En el método `main`, define un **saldo inicial** (por ejemplo: `saldo = 1000.0`), dicha variable deberá ser inferida por java.
 
 3. 📋 Muestra un **menú interactivo** en consola con las siguientes opciones:
    ```
@@ -22,6 +22,7 @@
    3. Retirar dinero
    4. Salir
    ```
+   Puedes usar un `do-while`
 
 4. 🔁 El programa debe repetirse usando un `while` hasta que el usuario elija salir (`opción 4`).
 
