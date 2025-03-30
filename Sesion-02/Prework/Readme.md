@@ -163,7 +163,7 @@ Los operadores lógicos se usan para combinar condiciones booleanas.
 |  `\|\|`      | OR (o)              | `x \|\| y`  | `true`         |
 | `!`          | NOT (negación)      | `!x`        | `false`        |
 | `&`          | AND bit a bit       | `x & y`     | `false`        |
-|  \|          | OR bit a bit        | `x \| y`    | `false`        |
+|  `\|`        | OR bit a bit        | `x \| y`    | `false`        |
 
 **🔑 Dato clave**: `&&` y `||` usan *evaluación cortocircuito*, lo que significa que, si el primer valor ya determina el resultado, el segundo no se evalúa.
 
