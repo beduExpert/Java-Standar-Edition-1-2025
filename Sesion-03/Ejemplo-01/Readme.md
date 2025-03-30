@@ -10,86 +10,87 @@ Comprender cómo se **define una clase**, cómo se **crean objetos** a partir de
 
 ## 📌 Escenario profesional
 
-Imagina que trabajas como **desarrollador backend Java** para una empresa que gestiona proyectos de software. Necesitas modelar una clase que represente los proyectos activos de los clientes, con sus respectivos atributos y comportamientos.
+Imagina que trabajas como **Java backend developer** para una empresa que gestiona proyectos de software. Necesitas modelar una clase que represente los proyectos activos de los clientes, con sus respectivos atributos y comportamientos.
 
 ---
 
-## 🧱 Clase `Project`
+## 🧱 Clase `Proyecto`
 
-En esta sección definimos la clase `Project`, que servirá como plantilla para crear proyectos con atributos clave y comportamientos típicos de un entorno profesional.
+En esta sección definimos la clase `Proyecto`, que servirá como plantilla para crear proyectos con atributos clave y comportamientos típicos de un entorno profesional.
 
 ```java
-public class Project {
+public class Proyecto {
 
     // Atributos del proyecto
-    private String name;
-    private String client;
-    private int durationWeeks;
-    private boolean isActive;
+    private String nombre;
+    private String cliente;
+    private int duracionSemanas;
+    private boolean estaActivo;
 
     // static - Atributo estático: número total de proyectos creados
-    public static int totalProjects = 0;
+    public static int totalProyectos = 0;
 
     // final - Constante: nombre del sistema
-    public static final String SYSTEM_NAME = "GestorProyectos v1.0";
+    public static final String NOMBRE_SISTEMA = "GestorProyectos v1.0";
 
     // Constructor
-    public Project(String name, String client, int durationWeeks, boolean isActive) {
-        this.name = name;
-        this.client = client;
-        this.durationWeeks = durationWeeks;
-        this.isActive = isActive;
-        totalProjects++;  // Se incrementa cada vez que se crea un nuevo proyecto
+    public Proyecto(String nombre, String cliente, int duracionSemanas, boolean estaActivo) {
+        this.nombre = nombre;
+        this.cliente = cliente;
+        this.duracionSemanas = duracionSemanas;
+        this.estaActivo = estaActivo;
+        totalProyectos++;  // Se incrementa cada vez que se crea un nuevo proyecto
     }
 
     // Método para mostrar información del proyecto
-    public void showInfo() {
-        System.out.println("📁 Proyecto: " + name);
-        System.out.println("👨‍💼 Cliente: " + client);
-        System.out.println("⏳ Duración: " + durationWeeks + " semanas");
-        System.out.println("✅ ¿Activo?: " + (isActive ? "Sí" : "No"));
+    public void mostrarInformacion() {
+        System.out.println("📁 Proyecto: " + nombre);
+        System.out.println("👨‍💼 Cliente: " + cliente);
+        System.out.println("⏳ Duración: " + duracionSemanas + " semanas");
+        System.out.println("✅ ¿Activo?: " + (estaActivo ? "Sí" : "No"));
     }
 
     // Método para marcar el proyecto como inactivo
-    public void closeProject() {
-        isActive = false;
-        System.out.println("🚫 El proyecto '" + name + "' ha sido cerrado.");
+    public void cerrarProyecto() {
+        estaActivo = false;
+        System.out.println("🚫 El proyecto '" + nombre + "' ha sido cerrado.");
     }
 }
+
 ```
 
 ---
 
-## 🧪 Uso de la clase `Project`
+## 🧪 Uso de la clase `Proyecto`
 
-Aquí creamos y usamos objetos de la clase `Project`, ejecutando sus métodos y accediendo a atributos estáticos (`static`) y constantes (`final`).
+Aquí creamos y usamos objetos de la clase `Proyecto`, ejecutando sus métodos y accediendo a atributos estáticos (`static`) y constantes (`final`).
 
 ```java
-public class Main {
+public class Principal {
     public static void main(String[] args) {
 
         // Uso de atributo final : Accedemos al nombre del sistema definido como constante
-        System.out.println("🖥️ Sistema: " + Project.SYSTEM_NAME);
+        System.out.println("🖥️ Sistema: " + Proyecto.NOMBRE_SISTEMA);
 
-        // Creación de objetos: Instanciamos dos proyectos con datos reales, como lo haría un desarrollador en un sistema empresarial
-        Project p1 = new Project("Sitio Web Corporativo", "Cliente A", 12, true);
-        Project p2 = new Project("Aplicación Móvil", "Cliente B", 20, true);
+        // Creación de objetos: Instanciamos dos proyectos con datos reales
+        Proyecto p1 = new Proyecto("Sitio Web Corporativo", "Cliente A", 12, true);
+        Proyecto p2 = new Proyecto("Aplicación Móvil", "Cliente B", 20, true);
 
-        // Uso de métodos: Llamamos al método showInfo() para mostrar los detalles de cada proyecto
-        p1.showInfo();
+        // Uso de métodos: Mostramos los detalles de cada proyecto
+        p1.mostrarInformacion();
         System.out.println();
-        p2.showInfo();
+        p2.mostrarInformacion();
         System.out.println();
 
-        // Uso de métodos: Simulamos el cierre de un proyecto usando un método que modifica su estado interno
-        p1.closeProject();
+        // Simulamos el cierre de un proyecto
+        p1.cerrarProyecto();
 
         // Mostramos nuevamente los datos del proyecto cerrado
         System.out.println();
-        p1.showInfo();
+        p1.mostrarInformacion();
 
-        // Uso de atributo static: Accedemos a una variable compartida entre todas las instancias para saber cuántos proyectos se han creado
-        System.out.println("\n📊 Total de proyectos creados: " + Project.totalProjects);
+        // Uso de atributo static: Total de proyectos creados
+        System.out.println("\n📊 Total de proyectos creados: " + Proyecto.totalProyectos);
     }
 }
 ```
@@ -98,14 +99,15 @@ public class Main {
 
 ## 🔍 Revisión rápida
 
-| Concepto         | Aplicación en el ejemplo                 |
-|------------------|-------------------------------------------|
-| Clase            | `Project`                                |
-| Atributos        | `name`, `client`, `durationWeeks`, etc. |
-| Atributo `static`| `totalProjects`                          |
-| Constante `final`| `SYSTEM_NAME`                            |
-| Métodos          | `showInfo()`, `closeProject()`           |
-| Objetos          | `p1`, `p2`                               |
+| Concepto           | Aplicación en el ejemplo                      |
+|--------------------|-----------------------------------------------|
+| Clase              | `Proyecto`                                    |
+| Atributos          | `nombre`, `cliente`, `duracionSemanas`, etc.  |
+| Atributo `static`  | `totalProyectos`                              |
+| Constante `final`  | `NOMBRE_SISTEMA`                              |
+| Métodos            | `mostrarInformacion()`, `cerrarProyecto()`    |
+| Objetos            | `p1`, `p2`                                     |
+
 
 ---
 
@@ -113,8 +115,8 @@ public class Main {
 
 🔹 En Java, los miembros `static` existen **incluso antes** de que se cree algún objeto. Por eso puedes usarlos para contar objetos o acceder a utilidades sin instanciar nada.
 
-🔹 El modificador `final` no solo se usa en variables. También puedes tener métodos `final` (que no pueden ser sobreescritos) o clases `final` (que no pueden ser heredadas). ¡Una excelente forma de proteger tu código!
+🔹 El modificador `final` no solo se usa en variables. También puedes tener métodos `final` (que no pueden ser sobrescritos) o clases `final` (que no pueden ser heredadas). ¡Una excelente forma de proteger tu código!
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Reto-01/Readme.md)➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-02/Readme.md)➡️

@@ -1,60 +1,91 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 03**](../Readme.md) ➡️ / ⚡`Reto 01: Registro de estudiante`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 03**](../Readme.md) ➡️ / ⚡`Reto 01: Reserva de vuelos`
 
 ---
 
 ## 🎯 Objetivo
 
-Crear una clase sencilla que represente a un estudiante utilizando **clases, atributos, objetos, `static` y `final`**, reforzando los principios básicos de la **Programación Orientada a Objetos en Java**.
+Diseñar un sistema básico de **reservas de vuelo** aplicando los fundamentos de la **Programación Orientada a Objetos** en Java. Practicarás la **creación de clases y objetos**, el uso de **atributos `static` y `final`**, así como la definición de **métodos con parámetros y valores de retorno**.
 
 ---
 
 ## 📝 Instrucciones
 
-👨‍🏫 Imagina que estás creando un sistema escolar y necesitas registrar alumnos.
+✈️ Tu nuevo desafío es simular un sistema donde un **pasajero** puede reservar un asiento en un **vuelo**, consultar su itinerario y cancelar la reserva si así lo desea.
 
-1. Crea una clase `Student` con los siguientes atributos:
-   - `name` (String)
-   - `grade` (int)
+---
 
-2. Agrega:
-   - Un atributo `static` llamado `studentCount` para contar cuántos estudiantes se han registrado.
-   - Una constante `final` llamada `INSTITUTION = "Bedu Academy"`.
+### 🧱 1. Crear la clase `Vuelo`
 
-3. Crea un constructor que asigne los valores del estudiante y aumente el contador.
+🔐 **Atributos**:  
+- `final String codigoVuelo`: código único del vuelo ✈️  
+- `String destino`: ciudad destino del vuelo 🗺️  
+- `String horaSalida`: hora de salida en formato 24h ⏰  
+- `Pasajero asientoReservado`: referencia al pasajero que reservó el asiento (puede ser `null`)
 
-4. Agrega un método `printInfo()` que imprima la información del estudiante.
+🛠️ **Métodos**:  
+- `Vuelo(String codigo, String destino, String horaSalida)`: constructor del vuelo  
+- `boolean reservarAsiento(Pasajero p)` → Asigna al pasajero si no hay reserva previa  
+- `boolean reservarAsiento(String nombre, String pasaporte)` → Método sobrecargado  
+- `void cancelarReserva()` → Elimina al pasajero asignado  
+- `String obtenerItinerario()` → Muestra la información del vuelo y el pasajero
 
-5. En tu clase principal (`Main`), crea 2 objetos de tipo `Student`, imprime sus datos, y muestra el total de estudiantes.
+---
+
+### 👤 2. Crear la clase `Pasajero`
+
+📋 **Atributos**:  
+- `String nombre`: nombre del pasajero 👤  
+- `String pasaporte`: número de pasaporte ✈️
+
+🛠️ **Métodos**:  
+- `Pasajero(String nombre, String pasaporte)`  
+- `String getNombre()`  
+- `String getPasaporte()`
+
+---
+
+### 🚀 3. En la clase `Principal`
+
+📌 Actividades:  
+- Crear al menos **un pasajero** y **un vuelo**  
+- Reservar el asiento en el vuelo  
+- Mostrar el itinerario  
+- Cancelar la reserva  
+- Mostrar nuevamente el itinerario
+- Reservar un asiento en el vuelo usando un nombre y pasaporte
 
 ---
 
 ## 🧩 Salida esperada
 
 ```plaintext
-🎓 Bienvenido a Bedu 
+✅ Reserva realizada con éxito.
 
-👤 Nombre: Ana
-📊 Calificación: 95
+✈️ Itinerario del vuelo:
+Código: UX123
+Destino: París
+Salida: 14:30
+Pasajero: Ana Martínez
 
-👤 Nombre: Luis
-📊 Calificación: 88
+❌ Cancelando reserva...
 
-👥 Total de estudiantes registrados: 2
+✈️ Itinerario del vuelo:
+Código: UX123
+Destino: París
+Salida: 14:30
+Pasajero: [Sin reserva]
+
+✈️ Itinerario del vuelo:
+Código: UX123
+Destino: París
+Salida: 14:30
+Pasajero: Mario Gonzalez
 ```
 
 ---
-
-✅ Este reto te ayuda a practicar:
-- Creación de clases y objetos
-- Uso de `static` y `final`
-- Métodos para mostrar información
-
-🏁 Tiempo estimado: 15 minutos
-
---- 
 
 🏆 Nos vemos en el siguiente reto, ¡mucho éxito!  
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-02/Readme.md)➡️
+⬅️ [**Anterior**](../Ejemplo-02/Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md)➡️

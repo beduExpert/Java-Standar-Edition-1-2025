@@ -1,67 +1,70 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 03**](../Readme.md) ➡️ / ⚡`Reto 02: Operaciones bancarias básicas`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 04**](../Readme.md) ➡️ / ⚡`Reto 02: Factura con RFC opcional`
 
 ---
 
-### 🎯 Objetivo
+## 🎯 Objetivo
 
-🏦 Diseñar un sistema bancario sencillo que permita a los usuarios **consultar su saldo**, **realizar depósitos**, **simular transferencias**, y aplicar **sobrecarga de métodos** en operaciones comunes.
-
----
-
-### 📝 Instrucciones
-
-Imagina que estás desarrollando un módulo básico para una app de banca digital. Sigue estos pasos:
-
-1. Crea una clase `CuentaBancaria` con los siguientes atributos:
-   - `titular` (String)
-   - `saldo` (double)
-
-2. Agrega los siguientes métodos:
-   - `consultarSaldo()` – muestra el saldo actual. *(sin retorno)*
-   - `depositar(double monto)` – suma el monto al saldo. *(sin retorno, recibe un parámetro por valor)*
-   - `transferir(double monto)` – devuelve `true` si hay fondos suficientes. *(con retorno)*
-   - `transferir(double monto, String destinatario)` – sobrecarga que muestra a quién se transfiere el dinero.
-
-3. En la clase `Main`, crea una cuenta con saldo inicial, realiza un depósito, y prueba las dos versiones del método `transferir`.
+Diseñar una clase `Factura` aplicando los principios de **encapsulación con modificadores de acceso** y utilizando la clase **`Optional`** para manejar valores que pueden ser nulos, como el RFC del cliente.
 
 ---
 
-### 🧩 Salida esperada
+## 📝 Instrucciones
+
+🧾 Tu reto será modelar una factura sencilla, que contenga los datos básicos de una compra y, opcionalmente, el RFC del cliente. Se deberá proteger el acceso a los atributos y permitir el uso seguro de `null` a través de `Optional`.
+
+---
+
+### 🧱 1. Crear la clase `Factura`
+
+🔐 **Atributos privados**:  
+- `double monto`: cantidad total de la factura 💵  
+- `String descripcion`: breve concepto de lo facturado 🧾  
+- `Optional<String> rfc`: RFC del cliente (puede estar presente o no)
+
+🛠️ **Métodos públicos**:  
+- `Factura(double monto, String descripcion, String rfc)`  
+  - Si el RFC es `null`, debe almacenarse usando `Optional.empty()`  
+- `String getResumen()` → Devuelve una cadena con los datos de la factura  
+  - Si el RFC está presente, se muestra  
+  - Si no, se muestra `"RFC: [No proporcionado]"`
+
+---
+
+### 🚀 2. En la clase `Principal`
+
+📌 Actividades:  
+- Crear al menos **2 facturas**:  
+  - Una **con RFC**  
+  - Otra **sin RFC** (`null`)  
+- Imprimir el resumen de ambas facturas usando el método `getResumen()`
+
+---
+
+## 🧩 Salida esperada
 
 ```plaintext
-👤 Titular: Mario
-💰 Saldo actual: $500.0
+📄 Factura generada:
+Descripción: Servicio de consultoría
+Monto: $2500.0
+RFC: ABCC010101XYZ
 
-📥 Depósito: $200.0
-💰 Nuevo saldo: $700.0
-
-🔁 Transferencia de $300.0 exitosa.
-📤 Enviando $100.0 a: Ana
-
-💰 Saldo final: $300.0
+📄 Factura generada:
+Descripción: Reparación de equipo
+Monto: $1800.0
+RFC: [No proporcionado]
 ```
 
 ---
 
-
-### 📚 Recursos recomendados 
-
-🔗 [Métodos en Java – W3Schools](https://www.w3schools.com/java/java_methods.asp)
-> Explicación clara sobre métodos, cómo se declaran, cómo se llaman, y la diferencia entre void y métodos con retorno.
-
-🔗 [Paso de parámetros en Java – Programiz](https://www.programiz.com/java-programming/methods)
-> Recurso interactivo que explica con ejemplos cómo funcionan los parámetros y el paso por valor en Java.
-
-🔗 [Sobrecarga de métodos – JavaTPoint](https://www.javatpoint.com/method-overloading-in-java)
-> Buena explicación sobre sobrecarga de métodos (method overloading) con múltiples ejemplos paso a paso.
-
-🔗 [Java Methods Quiz – Tutorialspoint](https://www.tutorialspoint.com/java/java_online_quiz.htm)
-> Pequeños quizzes interactivos para repasar métodos, clases, objetos, y más.
+📌 **Nota importante:**  
+En este reto deberás aplicar:
+- Encapsulación (`private` + métodos públicos)
+- Uso de `Optional` para evitar errores con valores nulos
 
 ---
 
-🏆 Nos vemos en el siguiente reto, ¡mucho éxito!  
+🏆 ¡Sigue así! Este reto te ayudará a consolidar buenas prácticas de desarrollo orientado a objetos en Java.
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md)➡️
+⬅️ [**Anterior**](../Ejemplo-04/Readme.md) | [**Siguiente**](../../Sesion-04/Readme.md)➡️  

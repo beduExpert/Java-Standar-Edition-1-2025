@@ -118,4 +118,4 @@ public class Empleado extends Persona {
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Reto-03/Readme.md)➡️
+⬅️ [**Anterior**](../Reto-01/Readme.md) | [**Siguiente**](../Ejemplo-04/Readme.md)➡️

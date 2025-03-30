@@ -4,145 +4,171 @@
 
 ## 🎯 Objetivo
 
-Comprender cómo definir y usar métodos en Java: con o sin parámetros, con o sin retorno, cómo se comportan al pasar valores por valor o referencia, y cómo aplicar la sobrecarga de métodos.
+Comprender cómo se definen y utilizan los **métodos en Java**, diferenciando entre métodos con o sin parámetros, con o sin retorno de valor. También se explora cómo se comportan los datos al ser pasados a métodos (por valor o por referencia), y cómo aplicar **sobrecarga de métodos**.
 
 ---
 
-## 📌 Escenario profesional
+## 📖 Introducción
 
-Eres parte del equipo de desarrollo de una aplicación de ventas. Necesitas programar métodos que realicen tareas como calcular totales, imprimir mensajes al usuario, y manejar descuentos, de forma **reutilizable y flexible.**
+Los métodos permiten organizar el código en **bloques reutilizables**.  
+Un método puede:
 
----
-
-## 1️⃣ Estructura básica de un método
-
-En esta sección veremos cómo se declara un método que recibe parámetros y devuelve un valor.
-
-```java
-// Clase con un método que calcula el total con IVA
-public class Calculator {
-
-    // Método que recibe un subtotal y devuelve el total con IVA
-    public double calcularTotalConIVA(double subtotal) {
-        return subtotal * 1.16;  // Se asume un IVA del 16%
-    }
-}
-```
+- Recibir parámetros para trabajar con datos.
+- Devolver un valor al programa principal.
+- Ejecutar una acción sin devolver nada.
 
 ---
 
-## 2️⃣ Uso de métodos con retorno de valor
+## 1️⃣ Método sin parámetros y sin retorno
 
-Aquí usamos el método anterior desde el `main` y mostramos el resultado en consola.
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        Calculator calc = new Calculator();  // Creación del objeto
-
-        double total = calc.calcularTotalConIVA(100.0);  // Llamada al método
-
-        System.out.println("💵 Total con IVA: $" + total);  // Mostrar resultado
-    }
-}
-```
-
----
-
-## 3️⃣ Método sin retorno y sin parámetros
-
-Este método realiza una acción sin devolver valor, muy útil para mostrar mensajes o realizar tareas de notificación.
+Un método simple que solo muestra un mensaje. No recibe datos ni devuelve nada.
 
 ```java
 public void mostrarBienvenida() {
-    System.out.println("👋 Bienvenido a la App de Ventas");
+    System.out.println("👋 Bienvenido al sistema");
 }
 ```
 
-Y su uso sería:
+🧪 Implementación: 
 
 ```java
-calc.mostrarBienvenida();  // Llamada desde el main
+mostrarBienvenida(); // Se realiza la llamada al método. 
 ```
 
 ---
 
-## 4️⃣ Paso de parámetros: por valor vs por referencia
+## 2️⃣ Método con parámetros y sin retorno
 
-En Java, los tipos primitivos se pasan por valor, y los objetos por referencia.
+Este método recibe dos valores y **muestra el resultado de una operación**.
 
 ```java
-public void duplicarNumero(int numero) {
+public void mostrarSuma(int a, int b) {
+    int resultado = a + b;
+    System.out.println("➕ La suma es: " + resultado);
+}
+```
+
+🧪 Implementación:
+
+```java
+mostrarSuma(10, 20); // Se establecen dos argumentos.
+```
+
+---
+
+## 3️⃣ Método con parámetros y con retorno
+
+Ahora el método **devuelve el resultado** de la suma en lugar de solo mostrarlo.
+
+```java
+public int obtenerSuma(int a, int b) {
+    return a + b;
+}
+```
+
+🧪 Implementación:
+
+```java
+int suma = obtenerSuma(5, 7);
+System.out.println("🧮 Resultado: " + suma);
+```
+
+---
+
+## 4️⃣ Paso por valor (tipos primitivos)
+
+Los datos primitivos se pasan **por valor**, es decir, se copia el valor original.
+
+```java
+public void duplicar(int numero) {
     numero = numero * 2;
-    System.out.println("🔁 Número dentro del método: " + numero);
+    System.out.println("Dentro del método: " + numero);
 }
 ```
 
-```java
-int valor = 10;
-calc.duplicarNumero(valor);  // Paso por valor
-System.out.println("🔎 Número original: " + valor);  // No cambia
-
-```
-Ahora con objetos:
+🧪 Implementación:
 
 ```java
-public void cambiarNombre(Cliente c) {
-    c.nombre = "Nuevo nombre";
-}
+int x = 10;
+duplicar(x);
+System.out.println("Fuera del método: " + x);  // x no cambia
 ```
 
-```java
-Cliente cliente1 = new Cliente("Mario");
-calc.cambiarNombre(cliente1);  // Paso por referencia
-System.out.println("🧾 Nombre del cliente: " + cliente1.nombre);  // Sí cambia
-
-```
 ---
 
-## 5️⃣ Sobrecarga de métodos
+## 5️⃣ Paso por referencia (objetos)
 
-Cuando necesitas múltiples versiones del mismo método con diferentes parámetros.
+Los objetos se pasan **por referencia**, lo que permite modificar sus atributos.
 
 ```java
-public class Descuento {
+public class Persona {
+    String nombre;
 
-    // Descuento solo con porcentaje
-    public double aplicarDescuento(double precio, double porcentaje) {
-        return precio - (precio * porcentaje);
-    }
-
-    // Descuento con porcentaje + monto fijo
-    public double aplicarDescuento(double precio, double porcentaje, double adicional) {
-        return (precio - (precio * porcentaje)) - adicional;
+    public Persona(String nombre) {
+        this.nombre = nombre;
     }
 }
 ```
+
+```java
+public void cambiarNombre(Persona p) {
+    p.nombre = "Nuevo nombre";
+}
+```
+
+🧪 Implementación:
+
+```java
+Persona persona = new Persona("Mario");
+cambiarNombre(persona);
+System.out.println("Nombre actualizado: " + persona.nombre);
+```
+
 ---
 
-## 🔍 Revisión rápida
+## 6️⃣ Sobrecarga de métodos
 
-| Concepto            | Aplicación en el ejemplo         |
-|---------------------|----------------------------------|
-| Método con retorno  |	`calcularTotalConIVA()`          |
-| Método sin retorno  |	`mostrarBienvenida()`            |
-| Paso por valor	  | `duplicarNumero(int)`            |
-| Paso por referencia |	`cambiarNombre(Cliente)`         |
-| Sobrecarga	      | `aplicarDescuento(...)`          |   
+Puedes definir **varias versiones** del mismo método con diferentes parámetros.
+
+```java
+public void saludar() {
+    System.out.println("👋 Hola");
+}
+
+public void saludar(String nombre) {
+    System.out.println("👋 Hola, " + nombre);
+}
+```
+
+🧪 Implementación:
+
+```java
+saludar();              // Hola
+saludar("Mario");       // Hola, Mario
+```
+
+---
+
+## 🧠 Resumen rápido
+
+| Tipo de método         | Ejemplo                        |
+|------------------------|--------------------------------|
+| Sin parámetros/retorno | `mostrarBienvenida()`          |
+| Con parámetros          | `mostrarSuma(int, int)`        |
+| Con retorno             | `obtenerSuma(int, int)`        |
+| Paso por valor          | `duplicar(int)`                |
+| Paso por referencia     | `cambiarNombre(Persona)`       |
+| Sobrecarga              | `saludar()` / `saludar(String)`|
+
 ---
 
 ## 💡 ¿Sabías que...?
 
-🔹 En Java, aunque los tipos primitivos se pasan por **valor**, los objetos se pasan por **referencia**, lo que permite modificarlos directamente desde los métodos.
-
-🔹 Puedes crear múltiples versiones de un mismo método usando la **sobrecarga**, siempre y cuando cambien los **parámetros** (en cantidad o tipo). Esto hace que tus programas sean más flexibles y fáciles de mantener.
-
-🔹 Los métodos que no devuelven valores (`void`) son ideales para **mostrar mensajes**, **registrar logs** o **enviar acciones**, mientras que los métodos con retorno son más útiles para **realizar cálculos** o **procesar datos**.
-
-🔹 Usar bien los métodos te permite **modularizar** tu código, lo cual es clave en proyectos reales donde trabajan varios desarrolladores.
+🔹 En Java, los métodos `void` se usan para **acciones sin retorno**, como imprimir.  
+🔹 Puedes usar métodos con retorno para **calcular resultados** y reutilizarlos en otras operaciones.  
+🔹 La **sobrecarga** permite tener múltiples versiones de un método con el mismo nombre, siempre que los parámetros sean distintos.  
+🔹 Entender el **paso por valor y por referencia** es clave para trabajar con datos en memoria correctamente.
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Reto-02/Readme.md)➡️
-
-
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Reto-01/Readme.md)➡️  

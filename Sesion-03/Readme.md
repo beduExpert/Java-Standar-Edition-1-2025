@@ -28,7 +28,6 @@ En Java, una **clase** representa el plano o molde para construir objetos, que s
 - Ejemplo práctico de creación de objetos
 
 ##### 📜 **[Ejemplo 01: Creación y uso de clases y objetos](Ejemplo-01/Readme.md)**
-##### 🔥 **[Reto 01: Registro de estudiante](Reto-01/Readme.md)**
 ---
 
 ### 📖 Métodos, parámetros y retorno de valores
@@ -41,7 +40,7 @@ Los **métodos** permiten organizar el código en bloques reutilizables. Pueden 
 - Sobrecarga de métodos
 
 ##### 📜 **[Ejemplo 02: Métodos, parámetros y retorno de valores](Ejemplo-02/Readme.md)**
-##### 🔥 **[Reto 02: Operaciones bancarias básicas](Reto-02/Readme.md)**
+##### 🔥 **[Reto 01: Reserva de vuelos](Reto-01/Readme.md)**
 
 ---
 
@@ -54,7 +53,6 @@ Los **modificadores de acceso** (`private`, `protected`, `public`) definen la vi
 - Encapsulación y protección de datos
 
 ##### 📜 **[Ejemplo 03: Modificadores de acceso](Ejemplo-03/Readme.md)**
-##### 🔥 **[Reto 03: Implementar encapsulación en una clase CuentaBancaria](Reto-03/Readme.md)**
 
 ---
 
@@ -67,7 +65,7 @@ La clase `Optional` permite manejar valores que podrían ser `null`, evitando er
 - Buenas prácticas con `Optional`
 
 ##### 📜 **[Ejemplo 04: Optional y manejo seguro de valores nulos](Ejemplo-04/Readme.md)**
-##### 🔥 **[Reto 04: Validar entrada de usuario con Optional](Reto-04/Readme.md)**
+##### 🔥 **[Reto 02: Factura con RFC opcional](Reto-02/Readme.md)**
 
 ---
 
