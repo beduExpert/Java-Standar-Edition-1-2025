@@ -30,7 +30,7 @@ import java.nio.file.Paths;
 
 public class LectorBasico {
     public static void main(String[] args) {
-        Path ruta = Paths.get("datos.txt");
+        Path ruta = Paths.get("src/Ejemplo_04/datos.txt");
 
         try {
             String contenido = Files.readString(ruta);

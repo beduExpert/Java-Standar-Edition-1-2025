@@ -39,7 +39,7 @@ import java.io.IOException;
 public class ExploradorArchivos {
     public static void main(String[] args) {
         // 1. Crear un objeto Path que apunte a un archivo
-        Path rutaArchivo = Paths.get("documentos/ejemplo.txt");
+        Path rutaArchivo = Paths.get("src/Ejemplo_01/ejemplo.txt");
 
         // 2. Imprimir la ruta absoluta del archivo
         System.out.println("📁 Ruta absoluta: " + rutaArchivo.toAbsolutePath());

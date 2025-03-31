@@ -37,7 +37,7 @@ import java.nio.file.Paths;
 public class LecturaEscrituraArchivos {
     public static void main(String[] args) {
         // 1. Definir la ruta del archivo
-        Path ruta = Paths.get("notas.txt");
+        Path ruta = Paths.get("src/Ejemplo_02/notas.txt");
 
         // 2. Contenido a escribir en el archivo
         String contenido = "📘 Este es un archivo de prueba.\nAquí aprendemos a escribir y leer en Java.";
