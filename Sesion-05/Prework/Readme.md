@@ -58,7 +58,7 @@ Bienvenid@ al quinto Prework del módulo. A continuación, te presentamos el tie
 **¡Comencemos! 🏁**
 
 ---
- 
+
 #### 📚 Tema 01. Introducción a la herencia en Java
 ##### ⏳ 7 minutos de lectura
 
@@ -79,7 +79,7 @@ Ejemplo
 <table style="border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S05_Fig1.jpg" alt="padre de familia" width="60">
+      <img src="../Imagenes/S05_Fig1.png" alt="padre de familia" width="60">
     </td>
     <td style="border: 1px solid white; padding: 10px;">
       - Un padre puede tener ciertas habilidades y características (como el color de ojos, el tipo de cabello o ciertos talentos).<br>
@@ -108,7 +108,7 @@ Ejemplo
       •	Si necesitas usar el martillo de la caja básica dentro de la caja avanzada, simplemente accedes a él con super.
     </td>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S05_Fig2.jpg" alt="cuenta bancaria" width="60">
+      <img src="../Imagenes/S05_Fig2.png" alt="cuenta bancaria" width="60">
     </td>
   </tr>
 </table>
@@ -218,7 +218,7 @@ Ejemplo
       •	Un empleado no es una empresa, por lo que no tendría sentido usar herencia en este caso.<br>
     </td>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S04_Fig3.jpg" alt="empresa y sus empleados" width="60">
+      <img src="../Imagenes/S05_Fig3.png" alt="empresa y sus empleados" width="60">
     </td>
   </tr>
 </table>
@@ -329,7 +329,7 @@ Ejemplo
       Un vehículo es un concepto general, pero no puedes "crear" un vehículo en sí. Necesitas una subclase como Coche o Motocicleta para darle una forma específica.
     </td>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S05_Fig4.jpg" alt="vehiculos" width="60">
+      <img src="../Imagenes/S05_Fig4.png" alt="vehiculos" width="60">
     </td>
   </tr>
 </table>
@@ -342,7 +342,7 @@ Ejemplo
 <table style="border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S05_Fig5.jpg" alt="enchufe" width="60">
+      <img src="../Imagenes/S05_Fig5.png" alt="enchufe" width="60">
     </td>
     <td style="border: 1px solid white; padding: 10px;">
       Un enchufe eléctrico tiene un estándar de conexión. Cualquier dispositivo que quiera usarlo (computadora, televisor, cargador) debe implementar la forma correcta de conectarse. 
@@ -394,7 +394,7 @@ Ejemplo
       Un pájaro canta.
     </td>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S05_Fig6.jpg" alt="perro ladrando" width="60">
+      <img src="../Imagenes/S05_Fig6.png" alt="perro ladrando" width="60">
     </td>
   </tr>
 </table>

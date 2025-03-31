@@ -28,7 +28,6 @@ La **herencia** permite que una clase (subclase) herede atributos y métodos de 
 - Herencia simple vs. herencia múltiple
 
 ##### 📜 **[Ejemplo 01: Herencia en Java](Ejemplo-01/Readme.md)**
-##### 🔥 **[Reto 01: ](Reto-01/Readme.md)**
 ---
 
 ### 📖 Herencia vs. composición
@@ -40,7 +39,7 @@ La **composición** permite que una clase contenga instancias de otras clases, f
 - Buenas prácticas modernas
 
 ##### 📜 **[Ejemplo 02: Herencia vs. composición](Ejemplo-02/Readme.md)**
-##### 🔥 **[Reto 02: ](Reto-02/Readme.md)**
+##### 🔥 **[Reto 01: Sistema de emergencia](Reto-01/Readme.md)**
 
 ---
 
@@ -53,7 +52,6 @@ Las **interfaces** definen contratos de comportamiento, mientras que las **clase
 - Herencia múltiple mediante interfaces
 
 ##### 📜 **[Ejemplo 03: Interfaces y clases abstractas](Ejemplo-03/Readme.md)**
-##### 🔥 **[Reto 03:  ](Reto-03/Readme.md)**
 
 ---
 
@@ -67,7 +65,7 @@ El **polimorfismo** permite que múltiples clases respondan de forma distinta al
 
 
 ##### 📜 **[Ejemplo 04: Polimorfismo y uso de @Override](Ejemplo-04/Readme.md)**
-##### 🔥 **[Reto 04:  ](Reto-04/Readme.md)**
+##### 🔥 **[Reto 02: Sistema de pago con múltiples métodos](Reto-02/Readme.md)**
 
 ---
 
