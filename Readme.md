@@ -19,8 +19,8 @@
 | 06 | 📊 [Listas, mapas y estructuras básicas](Sesion-06/Prework/Readme.md) |
 | 07 | 💾 [Introducción a I/O y NIO](Sesion-07/Prework/Readme.md) |
 | 08 | ⚙️ [Excepciones, SOLID y clean code](Sesion-08/Prework/Readme.md) |
-| 09 | 🧭 [Preparación para el círculo de estudio](Sesion-09/Prework/Readme.md) |
-| 10 | 🔄 [Repaso general](Sesion-10/Prework/Readme.md) |
+| 09 | 🧭 [Mentorship 1](Sesion-09/Prework/Readme.md) |
+| 10 | 🔄 [Mentorship 2](Sesion-10/Prework/Readme.md) |
 
 ## 📚 Sesiones
 
@@ -34,8 +34,8 @@
 | 06 | 📂 [Colecciones y estructuras de datos](Sesion-06/Readme.md) |
 | 07 | 📁 [Manejo de archivos con NIO.2](Sesion-07/Readme.md) |
 | 08 | ✅ [Buenas prácticas y manejo de errores en Java](Sesion-08/Readme.md) |
-| 09 | 🔁 [Círculo de estudio](Sesion-09/Readme.md) |
-| 10 | 🎯 [Checkpoint final](Sesion-10/Readme.md) |
+| 09 | 🔁 [Mentorship 1](Sesion-09/Readme.md) |
+| 10 | 🎯 [Mentorship 2](Sesion-10/Readme.md) |
 
 ---
 
