@@ -96,7 +96,7 @@ Un *code smell* o “olor a código” no significa que el programa no funcione,
 Aquí tienes algunas acciones simples que puedes aplicar desde ya para mejorar la calidad de tu código. No necesitas ser experto, solo observar con atención y aplicar con intención:
 
 <div align="center">
-  <img src="../Imagenes/S08_Fig01.jpg" alt="Miniguía para empezar a refactorizar tu código" width="50%">
+  <img src="../Imagenes/S08_Fig01.jpg" alt="Miniguía para empezar a refactorizar tu código" width="60%">
 </div>
 
 **💡 Consejo:** Refactoriza como si otra persona tuviera que entender tu código mañana… aunque esa persona seas tú mismo, pregúntate:
@@ -226,7 +226,7 @@ Java divide las excepciones en dos grandes grupos:
 - `Checked`: Java te obliga a manejarla o declararla (usando `try-catch` o `throws`).
 - `Unchecked`: Java no te obliga, pero si no las controlas, pueden romper tu programa.
 
-**Manejo de errores con `try-catch-finally` **
+**Manejo de errores con `try-catch-finally`**
 
 💻 Estructura básica
 
@@ -248,7 +248,7 @@ try {
 📌 Aquí algunos consejos útiles
 
 <div align="center">
-  <img src="../Imagenes/S08_Fig05.jpg" alt="Consejos utiles" width="50%">
+  <img src="../Imagenes/S08_Fig05.jpg" alt="Consejos utiles" width="70%">
 </div>
 
 **💬 Para reflexionar**
@@ -310,7 +310,7 @@ Una excepción personalizada te permite crear tu propio tipo de error, con un me
 
 
 <div align="center">
-  <img src="../Imagenes/S08_Fig07.jpg" alt="Pasos para crear una excepción personalizada" width="50%">
+  <img src="../Imagenes/S08_Fig07.jpg" alt="Pasos para crear una excepción personalizada" width="70%">
 </div>
 
 💻 Ejemplo en código

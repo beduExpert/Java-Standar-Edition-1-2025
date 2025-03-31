@@ -122,12 +122,12 @@ Ejemplo
 
 <table style="border-collapse: collapse;">
   <tr>
+    <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
+      <img src="../Imagenes/S07_Fig1.png" alt="Persona trabajando en computadora" width="60">
+    </td>
     <td style="border: 1px solid white; padding: 10px;">
       •	El `Path` sería como escribir la ruta en el explorador de archivos (ej. C:/documentos/tarea.txt).<br>
       •	La clase `Files` sería como las acciones que puedes hacer: abrir, copiar, mover o borrar ese archivo.<br>
-    </td>
-    <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S07_Fig1.jpg" alt="Persona trabajando en computadora" width="60">
     </td>
   </tr>
 </table>
@@ -161,7 +161,7 @@ Toma una ruta (representada como un objeto `Path`) y te devuelve el contenido co
 <table style="border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S07_Fig2.jpg" alt="foto instantánea" width="60">
+      <img src="../Imagenes/S07_Fig2.png" alt="foto instantánea" width="60">
     </td>
     <td style="border: 1px solid white; padding: 10px;">
       Piensa en `Files.readString()`como una "foto instantánea" del contenido del archivo. Es rápida y cómoda, pero debe usarse con cuidado en archivos muy grandes, ya que carga todo en memoria.
@@ -184,7 +184,7 @@ Toma una ruta (`Path`) y una secuencia de datos (`String`, `List`, o `byte[]`), 
 <table style="border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S07_Fig3.jpg" alt="impresora digital" width="60">
+      <img src="../Imagenes/S07_Fig3.png" alt="impresora digital" width="60">
     </td>
     <td style="border: 1px solid white; padding: 10px;">
       `Files.write()` es como una "impresora digital" para tus datos. Lo que tú envíes, se guarda. Solo asegúrate de no sobrescribir sin querer información importante.
@@ -235,7 +235,7 @@ Ejemplo
 <table style="border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S07_Fig4.jpg" alt="carpeta de descargas" width="60">
+      <img src="../Imagenes/S07_Fig4.png" alt="carpeta de descargas" width="60">
     </td>
     <td style="border: 1px solid white; padding: 10px;">
       Imagina una carpeta de descargas. Puedes usar NIO.2 para listar todos los archivos .pdf, copiarlos a otra ubicación y borrar los duplicados. ¡Automatización al rescate!
@@ -363,8 +363,8 @@ a) ¿Qué clases y métodos de NIO.2 usarías para crear un archivo con una nuev
 b) ¿Cómo leerías el contenido de una nota usando `Files.readString()`?
 c) Si quieres hacer una copia de una nota antes de modificarla, ¿qué método usarías? ¿Cómo te asegurarías de no sobrescribirla sin querer?
 d) ¿Qué pasos seguirías para mover una nota antigua a la carpeta `archivo/`?
-¿Qué métodos utilizarías para comprobar si una nota es legible y escribible antes de trabajar con ella?
-e) ¿Qué excepción podría lanzarse si la nota no existe? ¿Cómo la manejarías?
+e) ¿Qué métodos utilizarías para comprobar si una nota es legible y escribible antes de trabajar con ella?
+f) ¿Qué excepción podría lanzarse si la nota no existe? ¿Cómo la manejarías?
 
 3. **Reto adicional**
 Investiga cómo listar todas las notas dentro de la carpeta `notas/` y qué clase podrías usar para recorrerlas una por una.
@@ -386,7 +386,7 @@ Este conocimiento será clave en muchos de los proyectos que desarrolles en el f
 
 **🚀 Recuerda:** cada archivo que manipulas con inteligencia y cuidado es una señal de que estás creciendo como desarrollador.  
 
-¡Nos vemos en la sesión con el experto! 💻✨
+¡Nos vemos en la sesión con el experto/a! 💻✨
 
 ---
 

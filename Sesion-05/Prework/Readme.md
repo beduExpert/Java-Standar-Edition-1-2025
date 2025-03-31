@@ -334,7 +334,7 @@ Ejemplo
   </tr>
 </table>
 
-🤔 ¿Qué es una interfaz?
+🤔 ¿Qué es una interfaz?  
 Una *interfaz* define un *conjunto de métodos* que una clase debe implementar, sin proporcionar una implementación. Es como un contrato que las clases deben seguir.
 
 Ejemplo 
@@ -509,7 +509,7 @@ Estás desarrollando un sistema para gestionar distintos tipos de vehículos en 
 
 ---
 
-#### 📝 Cierre
+#### 📝 Cierre  
 
 ¡Felicidades por llegar hasta aquí! 🎉 En esta sesión has dado un gran paso en tu aprendizaje de Java, explorando conceptos fundamentales de la programación orientada a objetos:
 

@@ -13,6 +13,7 @@
 📘 Material del prework:
 
 Antes de comenzar con los ejercicios de esta sesión, recordemos que en el material de prework hemos cubierto los fundamentos teóricos que aplicaremos hoy. A lo largo de esta sesión, pondremos en práctica estos conceptos mediante una serie de ejercicios y retos diseñados para reforzar y validar nuestro entendimiento. 
+
 🔥¡Vamos a comenzar!🔥
 
 ---
@@ -28,8 +29,8 @@ Las colecciones permiten almacenar y manipular grupos de datos de manera eficien
 - `Set`: no permite duplicados.
 - `Map`: maneja pares clave-valor.
 
-##### 📜 **[Ejemplo 01: Introducción a las colecciones)](Ejemplo-01/Readme.md)**
-##### 🔥 **[Reto 01:  ](Reto-01/Readme.md)**
+##### 📜 **[Ejemplo 01: Introducción a las colecciones](Ejemplo-01/Readme.md)**
+
 ---
 
 ### 📖 Diferencias entre `ArrayList`, `HashSet` y `HashMap`
@@ -41,7 +42,7 @@ Cada estructura tiene un propósito distinto:
 - `HashMap`: clave-valor, clave única.
 
 ##### 📜 **[Ejemplo 02: Diferencias entre ArrayList, HashSet y HashMap](Ejemplo-02/Readme.md)**
-##### 🔥 **[Reto 02:  ](Reto-02/Readme.md)**
+##### 🔥 **[Reto 01: Registro y análisis de muestras genéticas ](Reto-01/Readme.md)**
 
 ---
 
@@ -53,7 +54,6 @@ Permiten ordenar colecciones según un criterio:
 - `Comparator`: define orden externo y personalizado.
 
 ##### 📜 **[Ejemplo 03: Ordenamiento con Comparator y Comparable](Ejemplo-03/Readme.md)**
-##### 🔥 **[Reto 03:   ](Reto-03/Readme.md)**
 
 ---
 
@@ -65,9 +65,9 @@ En entornos multihilo, se requieren estructuras seguras:
 - `ConcurrentHashMap`: mapa con acceso concurrente.
 
 ##### 📜 **[Ejemplo 04: Introducción a colecciones concurrentes](Ejemplo-04/Readme.md)**
-##### 🔥 **[Reto 04:  ](Reto-04/Readme.md)**
+##### 🔥 **[Reto 02: Planeación de temas y recursos educativos colaborativos  ](Reto-02/Readme.md)**
 
 ---
 
 
-⬅️ [**Anterior**](../Sesion-05/Readme.md) | [**Siguiente**](../Sesion-07/Readme.md)➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Sesion-07/Readme.md)➡️

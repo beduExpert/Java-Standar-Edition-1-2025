@@ -86,7 +86,7 @@ Ejemplo
 <table style="border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S06_Fig1.jpg" alt="tickets" width="60">
+      <img src="../Imagenes/S06_Fig1.png" alt="tickets" width="60">
     </td>
     <td style="border: 1px solid white; padding: 10px;">
       Con una colección, puedes guardar todos los boletos en una misma caja.<br>
@@ -185,7 +185,7 @@ En colecciones como `ArrayList`, este orden es *modificable*, y puedes definirlo
 <table style="border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S06_Fig2.jpg" alt="paquetes" width="60">
+      <img src="../Imagenes/S06_Fig2.png" alt="paquetes" width="60">
     </td>
     <td style="border: 1px solid white; padding: 10px;">
       Piensa en una lista desordenada de paquetes que necesitas organizar por peso o tamaño. Con estas herramientas, puedes definir cómo se deben ordenar.
@@ -274,7 +274,7 @@ Cuando varios hilos acceden a la misma colección al mismo tiempo, pueden ocurri
 <table style="border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid white; padding: 10px; vertical-align: top;">
-      <img src="../Imagenes/S06_Fig3.jpg" alt="Trabajo simultaneo" width="60">
+      <img src="../Imagenes/S06_Fig3.png" alt="Trabajo simultaneo" width="60">
     </td>
     <td style="border: 1px solid white; padding: 10px;">
       Imagina que tú y otra persona intentan escribir en el mismo documento al mismo tiempo. Sin coordinación, uno puede sobrescribir lo que el otro hizo.
