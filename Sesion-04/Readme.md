@@ -32,8 +32,8 @@ Los **constructores** permiten crear e inicializar objetos de forma segura y con
 
 🧠 Mejora la legibilidad, garantiza estados válidos y personaliza la creación de objetos.
 
-##### 📜 **[Constructores e inicialización de objetos](Ejemplo-01/Readme.md)**
-##### 🔥 **[Reto 01: Crear una clase Producto con sobrecarga de constructores](Reto-01/Readme.md)**
+##### 📜 **[Ejemplo 01: Constructores e inicialización de objetos](Ejemplo-01/Readme.md)**
+
 ---
 
 ### 📖 Métodos `equals()`, `hashCode()` y `toString()`
@@ -48,7 +48,7 @@ Estos **métodos especiales** permiten comparar, identificar y representar objet
 
 
 ##### 📜 **[Ejemplo 02: Métodos equals(), hashCode() y toString()](Ejemplo-02/Readme.md)**
-##### 🔥 **[Reto 02: Implementar métodos especiales en una clase Empleado](Reto-02/Readme.md)**
+##### 🔥 **[Reto 01: Registro y comparación de facturas](Reto-01/Readme.md)**
 
 ---
 
@@ -63,7 +63,6 @@ Java introduce nuevas herramientas para simplificar el manejo de datos:
 
 
 ##### 📜 **[Ejemplo 03: Uso de record y Objects.equals()](Ejemplo-03/Readme.md)**
-##### 🔥 **[Reto 03: Crear un record llamado Usuario con nombre y edad](Reto-03/Readme.md)**
 
 ---
 
@@ -78,9 +77,8 @@ Java introduce nuevas herramientas para simplificar el manejo de datos:
 🧠 Mejora la seguridad, mantenibilidad y evita errores.
 
 ##### 📜 **[Ejemplo 04: Principios de encapsulación e inmutabilidad](Ejemplo-04/Readme.md)**
-##### 🔥 **[Reto 04: Crear una clase inmutable Cuenta con saldo y titular](Reto-04/Readme.md)**
+##### 🔥 **[Reto 02: Comparación de declaraciones de impuestos](Reto-02/Readme.md)**
 
 ---
 
-
-⬅️ [**Anterior**](../Sesion-03/Readme.md) | [**Siguiente**](../Sesion-05/Readme.md)➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Sesion-05/Readme.md)➡️
