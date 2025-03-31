@@ -31,7 +31,7 @@ La API NIO.2 ofrece una forma moderna y potente de trabajar con archivos y rutas
 - Conceptos clave: rutas y operaciones
 
 
-##### 📜 **[Introducción a java.nio.file (NIO.2)](Ejemplo-01/Readme.md)**
+##### 📜 **[Ejemplo 01: Introducción a java.nio.file (NIO.2)](Ejemplo-01/Readme.md)**
 ---
 
 ### 📖 Lectura y escritura con `Files.readString()` y `Files.write()`

@@ -34,7 +34,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class LectorEscritorArchivos {
+public class LecturaEscrituraArchivos {
     public static void main(String[] args) {
         // 1. Definir la ruta del archivo
         Path ruta = Paths.get("notas.txt");
@@ -93,4 +93,4 @@ public class LectorEscritorArchivos {
 
 ---
 
-⬅️ [**Anterior**](../Ejemplo-01/Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md)➡️
+⬅️ [**Anterior**](../Ejemplo-01/Readme.md) | [**Siguiente**](../Reto-01/Readme.md)➡️
