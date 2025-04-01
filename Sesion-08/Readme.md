@@ -1,7 +1,7 @@
 🏠 [**Inicio**](../Readme.md) ➡️ / 📖 `Sesión 08`
 
 <div align="center">
-    <img src="Imagenes/S08.jpg" alt="Sesion_08">
+    <img src="Imagenes\S08.jpg" alt="Sesion_08">
 </div>
 
 ## 🎯 Objetivo
@@ -28,8 +28,8 @@ Refactorizar es mejorar la estructura del código sin cambiar su funcionalidad. 
 - Eliminación de código muerto
 - Buenas prácticas para simplificar y reutilizar
 
-##### 📜 **[Refactorización y code smells](Ejemplo-01/Readme.md)**
-##### 🔥 **[Reto 01:   ](Reto-01/Readme.md)**
+##### 📜 **[Ejemplo 01: Refactorización y code smells](Ejemplo-01/Readme.md)**
+
 ---
 
 ### 📖 Principios SOLID en Java
@@ -40,7 +40,7 @@ Los principios **SOLID** son la base para escribir código orientado a objetos q
 - Aplicación con ejemplos cotidianos
 
 ##### 📜 **[Ejemplo 02: Principios SOLID en Java](Ejemplo-02/Readme.md)**
-##### 🔥 **[Reto 02:   ](Reto-02/Readme.md)**
+##### 🔥 **[Reto 01: Motor de lógica narrativa  ](Reto-01/Readme.md)**
 
 ---
 
@@ -53,7 +53,6 @@ Escribir código eficiente mejora la experiencia del usuario y reduce el consumo
 - Gestión de memoria y recursos
 
 ##### 📜 **[Ejemplo 03: Técnicas para mejorar el rendimiento](Ejemplo-03/Readme.md)**
-##### 🔥 **[Reto 03:   ](Reto-03/Readme.md)**
 
 ---
 
@@ -66,7 +65,6 @@ Las **excepciones** permiten manejar errores de forma segura y controlada.
 - Evitar que el programa se caiga inesperadamente
 
 ##### 📜 **[Ejemplo 04: Manejo de excepciones con try-catch-finally](Ejemplo-04/Readme.md)**
-##### 🔥 **[Reto 04:   ](Reto-04/Readme.md)**
 
 ---
 
@@ -79,9 +77,9 @@ Cuando las excepciones predefinidas no son suficientes, puedes crear las tuyas p
 - Excepciones personalizadas
 
 ##### 📜 **[Ejemplo 05: Uso de throw, throws y excepciones personalizadas](Ejemplo-05/Readme.md)**
-##### 🔥 **[Reto 05:   ](Reto-05/Readme.md)**
+##### 🔥 **[Reto 02: Monitoreo de consumo de recursos en servidores  ](Reto-02/Readme.md)**
 
 ---
 
 
-⬅️ [**Anterior**](../Sesion-07/Readme.md) | [**Siguiente**](../Sesion-09/Readme.md)➡️
+⬅️ [**Anterior**](../Readme.md)  | [**Siguiente**](../Sesion-09/Readme.md)➡️

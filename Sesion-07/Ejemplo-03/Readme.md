@@ -107,4 +107,4 @@ Puedes simular correctamente el ejemplo creando previamente las carpetas `tempor
 
 ---
 
-⬅️ [**Anterior**](../Ejemplo-02/Readme.md) | [**Siguiente**](../Ejemplo-04/Readme.md)➡️  
+⬅️ [**Anterior**](../Reto-01/Readme.md) | [**Siguiente**](../Ejemplo-04/Readme.md)➡️  

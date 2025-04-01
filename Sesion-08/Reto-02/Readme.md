@@ -43,4 +43,4 @@
 
 🏁 Este reto pone a prueba tu capacidad para integrar distintos enfoques de desarrollo limpio y seguro en un contexto real de automatización de infraestructura.
 
-⬅️ [**Anterior**](../Ejemplo-05/Readme.md) | [**Siguiente**](../Readme.md)➡️
+⬅️ [**Anterior**](../Ejemplo-05/Readme.md) | [**Siguiente**](../../Sesion-09/Readme.md)➡️

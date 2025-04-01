@@ -1,7 +1,7 @@
 🏠 [**Inicio**](../Readme.md) ➡️ / 📖 `Sesión 01`
 
 <div align="center">
-    <img src="Imagenes/S01.png" alt="Sesion_01">
+    <img src="Imagenes/S01.jpg" alt="Sesion_01">
 </div>
 
 # 🎯 Objetivo

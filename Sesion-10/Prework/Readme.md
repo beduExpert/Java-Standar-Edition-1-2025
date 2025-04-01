@@ -1,4 +1,4 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 `Prework sesión 10`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 `Sesión 10`
 
 <div align="center">
     <img src="../Imagenes/S00.jpg" alt="Bedu | Haz + con tu talento | JAVA STANDARD EDITION I">
@@ -6,7 +6,7 @@
 
 ##### **PREWORK**
 #### **🟧 Sesión 10**
-#### **Checkpoint**
+#### **Mentorship 2**
 
 ##### 🔶 **Introducción** 
 
@@ -52,7 +52,7 @@ En este repaso, destacaremos los conceptos clave y aprendizajes de cada sesión,
 
 ¡Vamos con todo para cerrar con claridad y confianza este módulo! 💪🚀
 
-**Sesión 01. Introducción a Java y Programación Orientada a Objetos (POO)**
+**Sesión 01. Introducción a la programación orientada a objetos en Java**
 
 En esta primera sesión dimos nuestros primeros pasos en el mundo de Java, un lenguaje de programación que ha marcado la industria por su robustez, portabilidad y enfoque en la Programación Orientada a Objetos (POO).
 
@@ -83,7 +83,7 @@ En esta primera sesión dimos nuestros primeros pasos en el mundo de Java, un le
 
 Esta sesión sentó las bases conceptuales y técnicas para el resto del curso. Fue el punto de partida para entender no solo cómo escribir código en Java, sino cómo **pensar en objetos**, estructurar soluciones escalables y adoptar buenas prácticas desde el inicio.
 
-**Sesión 02: Tipos de datos y control de flujo**  
+**Sesión 02: Tipos de datos y sentencias de control**  
 
 En esta sesión, exploraste los fundamentos que permiten construir la lógica de cualquier programa en Java. Aprendiste a trabajar con datos, realizar operaciones y controlar el flujo de ejecución, habilidades clave para que tu código tome decisiones y repita tareas eficientemente.
 
@@ -131,7 +131,7 @@ Aprendiste a repetir instrucciones usando diferentes estructuras:
 
 Esta sesión fue esencial para comenzar a escribir código **dinámico, interactivo y con lógica propia**. Aprendiste que un buen manejo de datos y estructuras de control te permite tomar decisiones, validar condiciones, y ejecutar acciones repetitivas sin duplicar código.
 
-**Sesión 03. Clases, objetos y métodos**
+**Sesión 03. Clases y objetos: crea aplicaciones que permitan el ingreso de información**
 
 Esta sesión fue clave para profundizar en los pilares de la Programación Orientada a Objetos (POO). Aprendiste a crear tus propias clases, instanciar objetos y definir métodos para que estos objetos puedan ejecutar acciones específicas. Todo esto representa el corazón del desarrollo en Java.
 
@@ -194,7 +194,7 @@ En vez de retornar `null`, puedes retornar un `Optional.empty()` o un `Optional.
 
 Esta sesión te ayudó a dominar la estructura base de cualquier programa en Java. Aprendiste a **modelar el mundo real en código**, usando clases como planos, objetos como instancias reales, y métodos como acciones que estos objetos pueden realizar. También comenzaste a aplicar buenas prácticas de diseño, protección de datos y organización del código.
 
-**Sesión 04. Elementos de una clase**  
+**Sesión 04. Elementos de una clase: implementa validación de datos**  
 
 En esta sesión profundizaste en cómo estructurar correctamente una clase en Java, incluyendo no solo los atributos y métodos básicos, sino también elementos especiales que hacen que tus clases sean más eficientes, legibles y seguras. Aprendiste a utilizar constructores, métodos especiales, encapsulación, inmutabilidad y herramientas modernas como `record` y `Objects.equals()`.  
 
@@ -252,7 +252,7 @@ record Usuario(String nombre, int edad) {}
 
 Esta sesión te mostró cómo **construir clases sólidas, seguras y profesionales**, cuidando los detalles de diseño que marcan la diferencia entre un código funcional y un código de calidad. También aprendiste herramientas modernas de Java que reducen el código repetitivo y aumentan la legibilidad.
 
-**Sesión 05. Herencia, composición y polimorfismo**  
+**Sesión 05. Diseño de clases (herencia y polimorfismo): reutiliza código existente por medio de herencia y polimorfismo**  
 
 En esta sesión diste un gran paso en el dominio de la Programación Orientada a Objetos (POO), aprendiendo a estructurar clases de forma más eficiente y flexible. Estudiaste tres pilares fundamentales para crear código *reutilizable, escalable y limpio: herencia, composición y polimorfismo*.
 
@@ -329,7 +329,7 @@ miAnimal.hacerSonido(); // Imprime: "Ladrido"
 
 Esta sesión te enseñó a **estructurar mejor tus programas**: usar herencia para aprovechar código existente, composición para diseñar sistemas modulares y polimorfismo para lograr flexibilidad. Aprendiste que escribir buen código no es solo **hacerlo funcionar, sino también hacerlo extensible, organizado y mantenible**.
 
-**Sesión 06. Colecciones y estructuras de datos**
+**Sesión 06. Colecciones: utiliza diversas estructuras de datos de acuerdo al tipo de aplicación a desarrollar**
 
 En esta sesión aprendiste a trabajar con *estructuras de datos dinámicas* en Java, fundamentales para manipular conjuntos de información de forma ordenada, eficiente y flexible. Descubriste cómo usar colecciones como *listas, conjuntos y mapas*, cuándo aplicarlas, y cómo ordenarlas según distintas necesidades.
 
@@ -392,7 +392,7 @@ Ejemplos:
 
 En resumen, esta sesión te permitió dominar las **estructuras dinámicas más usadas en Java**, eligiendo la colección adecuada según si necesitas orden, unicidad o asociación clave-valor. También aprendiste a aplicar ordenamientos avanzados y preparar tus programas para trabajar en entornos concurrentes.
 
-**Sesión 07. Manejo de archivos con NIO.2**
+**Sesión 07. Manejo de archivos: guarda información en un archivo de manera persistente**
 
 En esta sesión aprendiste a *leer, escribir, copiar y mover archivos* en Java de forma moderna, eficiente y segura usando la API NIO.2 (`java.nio.file`). Esta herramienta es esencial para desarrollar aplicaciones que interactúan con el sistema de archivos, como editores, cargadores de datos, reportes, logs y más.
 
@@ -556,3 +556,4 @@ Así que respira, repasa, reflexiona... ¡y prepárate para cerrar con fuerza es
 ---
 
 ⬅️ [**Anterior**](../../Sesion-09/Prework/Readme.md)
+

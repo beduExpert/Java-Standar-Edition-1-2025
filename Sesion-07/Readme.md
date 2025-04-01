@@ -43,7 +43,7 @@ Dos métodos fundamentales para interactuar con archivos de texto:
 
 
 ##### 📜 **[Ejemplo 02: Lectura y escritura con Files.readString() y Files.write()](Ejemplo-02/Readme.md)**
-##### 🔥 **[Reto 01: ](Reto-01/Readme.md)**
+##### 🔥 **[Reto 01: Registro de parámetros de simulación](Reto-01/Readme.md)**
 
 ---
 
@@ -68,7 +68,7 @@ Trabajar con archivos requiere planificación y prevención de errores:
 - Mejora el rendimiento en archivos extensos con `BufferedReader`
 
 ##### 📜 **[Ejemplo 04: Buenas prácticas en manejo de archivos](Ejemplo-04/Readme.md)**
-##### 🔥 **[Reto 02: ](Reto-02/Readme.md)**
+##### 🔥 **[Reto 02: Procesamiento eficiente de logs de errores](Reto-02/Readme.md)**
 
 ---
 
