@@ -123,7 +123,8 @@ public static void main(String[] args) {
 - `main`: es el nombre obligatorio para que Java lo reconozca como punto de inicio.
 - `String[] args`: es un parámetro que permite recibir argumentos desde la línea de comandos (aunque no lo usamos aquí, es obligatorio ponerlo).
 
-🔍En resumen: **sin `main`, el programa no corre**, a menos que estés trabajando con pruebas unitarias (`JUnit`) o frameworks especiales.
+🔍En resumen:  
+**sin `main`, el programa no corre**, a menos que estés trabajando con pruebas unitarias (`JUnit`) o frameworks especiales.
 
 Y como puedes ver en tu código:
 

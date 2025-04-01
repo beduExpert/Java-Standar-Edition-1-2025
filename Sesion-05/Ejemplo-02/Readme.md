@@ -134,7 +134,7 @@ public class Simulador {
 ---
 
 📘 Recurso recomendado:  
-🔗 [Preferir Composición sobre Herencia – Clean Code](https://en.wikipedia.org/wiki/Composition_over_inheritance)
+🔗 [Preferir Composición sobre Herencia – Clean Code](https://dev.to/rlgino/composicion-vs-herencia-4664)
 
 ---
 
