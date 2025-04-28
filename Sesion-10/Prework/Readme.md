@@ -1,4 +1,4 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 `Sesión 10`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 `Prework sesión 10`
 
 <div align="center">
     <img src="../Imagenes/S00.jpg" alt="Bedu | Haz + con tu talento | JAVA STANDARD EDITION I">
